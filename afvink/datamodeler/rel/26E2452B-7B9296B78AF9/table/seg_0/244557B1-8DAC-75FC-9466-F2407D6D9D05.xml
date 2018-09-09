@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="244557B1-8DAC-75FC-9466-F2407D6D9D05" name="Student">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>66B3998F-2FB0-3C30-E187-9EF83E0039B7</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="foto" id="27592D60-CFA2-4B4B-4E4D-9A6FC56F8123">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>1693E60D-AC12-2907-892F-97F6E07E64D8</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Voornaam" id="8633F791-1886-F1C3-6D2F-4A6315F6D1C0">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>A8F28D05-8105-84A4-1032-ED0FD1CE351D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tussenvoegsel" id="D10CB976-F60C-B1B8-E2BA-15C858056DAF">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>89DEDD7E-7A7C-1C46-EE67-BBAEA4631F12</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Achternaam" id="61B97C6D-E26D-7A26-2B50-64F416445BCD">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>CC9F47EC-923C-C887-E88A-F208F93D2A2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Geboortedatum" id="57897C05-7468-64FD-45A0-D2DE787C37A6">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>3F653249-B259-64E2-95F7-0390D43BE874</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studentnummer" id="A85572D3-A345-49E4-ED1A-42D4F5F23A00">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>F323E9F6-0A08-90E8-F8DE-9438C57EFABD</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EDC9FF9-899D-2805-B630-CE1A8741FC8B" name="Student_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>F37E52B9-6420-1EAB-2B0E-E726CA28E3A7</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A85572D3-A345-49E4-ED1A-42D4F5F23A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAFFE229-A320-BDB6-B3FB-B4D922E3893F" name="Student_Films_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>D5058D44-F3B9-2A9E-0B45-397B2916CEBE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

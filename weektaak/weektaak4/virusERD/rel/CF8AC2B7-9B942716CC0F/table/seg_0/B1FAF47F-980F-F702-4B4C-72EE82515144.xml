@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1FAF47F-980F-F702-4B4C-72EE82515144" name="Protein_function">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>CFC77F5E-8749-F699-FB24-0F0D0F6A5C1A</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Functie_ID" id="E3BE1DB2-E9AB-55C4-4765-81CE9B59F6FA">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>925AB28C-FE11-2EA6-623F-4716BD3C0D2D</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Function" id="58703BA1-9728-3836-640B-3B0706657A07">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>26334163-2162-44AD-E8DE-5A88AAF83691</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proteine_Protein_ID" id="33C65651-BA51-0E65-ED1D-A63BF4605A01">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>6C126197-0092-F7D3-0B54-ED3B96CFA8E2</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BA20CF0-6991-FE36-D0C7-6FF07CED7327" referredColumn="5D7CCEC2-2886-D4F7-A3E9-67B288BE3535"/>
+</associations>
+</Column>
+<Column name="Proteine_ID" id="3F71FC85-92BC-136F-6DE5-CDC2E6F27A88">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>EE683281-55BA-A227-CC04-E1485F371FFC</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BA20CF0-6991-FE36-D0C7-6FF07CED7327" referredColumn="3925FC04-FE45-D366-E66D-1C4160068C6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E021975-9B70-9587-1DB3-DC0ED73EB2F2" name="Protein_function_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>B04811BE-A10A-2AFD-B777-0FFACED29721</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BE1DB2-E9AB-55C4-4765-81CE9B59F6FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A793F35-3897-7EE7-F258-6790DC33F7A6" name="Protein_function_Proteine_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>07D58944-7482-CCA6-ABD7-731CE8C0E200</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C65651-BA51-0E65-ED1D-A63BF4605A01"/>
+<colUsage columnID="3F71FC85-92BC-136F-6DE5-CDC2E6F27A88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

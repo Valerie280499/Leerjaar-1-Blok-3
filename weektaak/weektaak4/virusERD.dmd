@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="virusERD" id="97D49F64-EC7E-EFF2-6CA1-E917AA1155C6" version="3.5">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:04:04 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97D49F64-EC7E-EFF2-6CA1-E917AA1155C6</designId>
+</OSDM_Design>

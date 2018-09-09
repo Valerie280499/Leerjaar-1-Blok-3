@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="853B7B9C-79E1-E62F-B4C2-05552344CE7C" name="Films">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>519AA2AE-9451-0401-15DE-98714C51C9C9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Titel" id="D5E18F86-791B-E599-D9F1-1FEDCA51C069">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>9E4F0975-0413-25CE-E52E-96618D5CBD1B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jaar" id="22FAB15D-ED89-E106-DD1F-58DB7A4646BB">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>B885A9D4-A2C1-6BD4-F727-970AFB9D467E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Auteur(s)" id="132FBEFF-4922-C5F1-AD0A-877C560A7244">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>3FE7186D-D16B-4895-1EE1-1FB8CB7C77E5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acteur(s)" id="C248ABC4-3471-55A7-BAE3-08448824E404">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>BEA77384-A87A-0001-24F7-6B031DBADE66</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_Studentnummer" id="143192AB-8536-137B-B8EC-A934A78B0724">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>069440AF-D737-DF6A-8807-13F225A402D3</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C32D6040-BAE0-FE6C-6B76-BF780CCC659F" referredColumn="A85572D3-A345-49E4-ED1A-42D4F5F23A00"/>
+</associations>
+</Column>
+<Column name="Student_Studentnummer2" id="A7FF4B5C-0B3A-46DD-18C7-A1A1F13F8980">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>307D1C54-A3FB-2D8A-6E9A-35713450EA9D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C336C89-4A50-5759-EBEF-104B76F3E9E0" referredColumn="A85572D3-A345-49E4-ED1A-42D4F5F23A00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E626D42A-D31C-1AF0-6533-82653E006824" name="Films_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>3D1B92E7-45AA-8FAB-CE1C-384C657FF4B1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F0596287-0606-0088-162F-F53FFAB10148" name="Films__IDX">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5058D44-F3B9-2A9E-0B45-397B2916CEBE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7FF4B5C-0B3A-46DD-18C7-A1A1F13F8980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F5DF31E-5D1E-8539-493A-0E6B40C54F67" name="Films_Student_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>A0563A64-195A-068C-67FD-1C4D02C536A5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="143192AB-8536-137B-B8EC-A934A78B0724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DA80A9A-B757-05D0-B879-8D6B69CADF10" name="Films_Student_FKv2">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>D5058D44-F3B9-2A9E-0B45-397B2916CEBE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7FF4B5C-0B3A-46DD-18C7-A1A1F13F8980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

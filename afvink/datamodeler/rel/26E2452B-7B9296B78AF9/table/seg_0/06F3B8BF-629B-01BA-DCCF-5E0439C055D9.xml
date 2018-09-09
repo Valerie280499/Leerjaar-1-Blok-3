@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06F3B8BF-629B-01BA-DCCF-5E0439C055D9" name="Bereikbaarheid">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>8BE0D47B-964A-D040-3EEB-0DE2BC605F14</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telefoonnummer" id="6862560C-3BB8-2066-56C3-B54507091A57">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>643B11E7-DDE7-DF13-8D1A-56BE23E48F61</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E-mailaders" id="C5B4BE41-83B8-1FCE-FEDE-30889DAD6714">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>2137B341-3E37-20C8-883B-D7A4BF55D5AE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_Studentnummer" id="4969C8EE-E9F3-2BAF-12F4-89E7486CD710">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>A17C5380-3213-95D8-A3C8-E9FAD518C72C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2131872C-4675-5B1A-6C9B-9009F621D812" referredColumn="A85572D3-A345-49E4-ED1A-42D4F5F23A00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C640C6DD-1781-71B2-8436-CABB13AE5611" name="Bereikbaarheid_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>E76DB70B-4B49-F9BD-50D6-45D88AE1E54B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4969C8EE-E9F3-2BAF-12F4-89E7486CD710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C71FEC1A-F47F-06C3-68EB-3156209E5E23" name="Bereikbaarheid_Student_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>667A09BD-0211-A7B5-BA46-AAB7C8392F47</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4969C8EE-E9F3-2BAF-12F4-89E7486CD710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

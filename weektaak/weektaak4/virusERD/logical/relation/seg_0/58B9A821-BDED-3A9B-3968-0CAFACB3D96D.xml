@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="virus_host" directorySegmentName="seg_0" id="58B9A821-BDED-3A9B-3968-0CAFACB3D96D">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:32:15 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<sourcePk>3B186BC7-F95B-3688-04C6-2095E7D62C7F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8FB5B35B-1AA7-FB05-7C71-D5293E26F166</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>871DCBF7-EBEA-2B22-51B1-0D77E359E8A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

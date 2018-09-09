@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="683AC97E-C946-E9B6-F0D3-21E1A0E9048E" name="Aders">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:03:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Straannaam" id="63E7C74E-7CB8-0143-3E7E-BB9312D77DF5">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:05:18 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Huisnummer" id="2D28985C-DC83-E87B-2FD3-58B4E7022E82">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:05:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postcode" id="8C65094A-8461-6822-E066-A6B7DC6147EC">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:05:43 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Woonplaats" id="DFD9B090-66CB-655F-BEC0-758A31B4D66E">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:13:40 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reistijd" id="E65596A2-6C72-3A6A-DD08-BD609F29CB4E">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:14:29 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Studentnummer1" id="40ED0395-9121-9D18-B077-C91A56C3F9B8">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:15:31 UTC</createdTime>
+<generatorID>5233D332-D81E-E709-FEE6-AB94E2C3EDF2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="true"/>
+</engineerTo>
+<referedAttribute>F323E9F6-0A08-90E8-F8DE-9438C57EFABD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="530FF0D5-1963-3502-946C-2B0784BFFA16" name="Aders PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-08 10:05:16 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26E2452B-E63A-EACF-E356-7B9296B78AF9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40ED0395-9121-9D18-B077-C91A56C3F9B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

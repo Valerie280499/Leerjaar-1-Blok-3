@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27041629-45D1-9EB3-B5C6-A7869582C7B1" name="Proteine">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:14:13 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Protein_ID" id="7011F073-679A-CB37-97F3-045BDCAD6853">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:14:56 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naam" id="FD6632C5-9227-8BC9-C27A-F284822DDEE2">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:15:19 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="2FE3E3CD-D10E-2A5C-28DB-26D766B36594">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:19:49 UTC</createdTime>
+<generatorID>F91AE13D-F8F1-C271-9CA6-DF760BE31843</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<referedAttribute>C5E271D5-9503-6586-5A71-4BC16299A4CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9E489BB-4CAD-A02A-1E36-D20105562429" name="Proteine PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:15:17 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7011F073-679A-CB37-97F3-045BDCAD6853</attributeRef>
+<attributeRef>2FE3E3CD-D10E-2A5C-28DB-26D766B36594</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

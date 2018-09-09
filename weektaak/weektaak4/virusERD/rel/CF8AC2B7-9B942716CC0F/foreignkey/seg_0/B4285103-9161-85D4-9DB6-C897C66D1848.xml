@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4285103-9161-85D4-9DB6-C897C66D1848" containerWithKeyObject="F88F7EA4-1CE7-043D-2093-4D6927767B4B" localFKIndex="71D5AF8E-7F74-F396-4F52-1AC35D9D2505" name="Proteine_Virus_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>F91AE13D-F8F1-C271-9CA6-DF760BE31843</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<referredTableLongName>Virus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50A3289E-96B7-C957-42FF-3DDE4741993D</referredTableID>
+<keyObject>B884704A-A69A-0F8F-6470-A1C0977DDDF2</keyObject>
+<referredKeyID>B884704A-A69A-0F8F-6470-A1C0977DDDF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

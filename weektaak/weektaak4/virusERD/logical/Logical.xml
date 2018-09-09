@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2D925D3F-7FC9-498A-D24E-EE332B6F4693" mainViewID="A8E66FCC-6D56-C316-9F5A-EEBAC1A70F8F">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:04:04 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

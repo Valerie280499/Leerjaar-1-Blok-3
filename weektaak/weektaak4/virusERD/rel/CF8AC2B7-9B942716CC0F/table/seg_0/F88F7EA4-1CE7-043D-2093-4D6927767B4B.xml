@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F88F7EA4-1CE7-043D-2093-4D6927767B4B" name="Proteine">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>27041629-45D1-9EB3-B5C6-A7869582C7B1</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Protein_ID" id="5D7CCEC2-2886-D4F7-A3E9-67B288BE3535">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>7011F073-679A-CB37-97F3-045BDCAD6853</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naam" id="28E477C4-EFBA-9591-09C6-C84303098F7A">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>FD6632C5-9227-8BC9-C27A-F284822DDEE2</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Virus_ID" id="3925FC04-FE45-D366-E66D-1C4160068C6A">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>2FE3E3CD-D10E-2A5C-28DB-26D766B36594</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4285103-9161-85D4-9DB6-C897C66D1848" referredColumn="0BBD72CB-DF25-EF95-05FF-38658245EFB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="944D0BE0-09B6-090D-A5BC-F2474693059E" name="Proteine_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>B9E489BB-4CAD-A02A-1E36-D20105562429</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D7CCEC2-2886-D4F7-A3E9-67B288BE3535"/>
+<colUsage columnID="3925FC04-FE45-D366-E66D-1C4160068C6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71D5AF8E-7F74-F396-4F52-1AC35D9D2505" name="Proteine_Virus_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>F91AE13D-F8F1-C271-9CA6-DF760BE31843</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3925FC04-FE45-D366-E66D-1C4160068C6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

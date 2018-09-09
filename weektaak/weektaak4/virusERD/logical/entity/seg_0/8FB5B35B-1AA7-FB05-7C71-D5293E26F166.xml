@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FB5B35B-1AA7-FB05-7C71-D5293E26F166" name="Virus">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:05:42 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C5E271D5-9503-6586-5A71-4BC16299A4CF">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:06:08 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naam" id="28E425A8-0942-9375-F72C-E78CA28FE769">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:06:36 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Familie" id="955CA5FA-AC7B-500B-C8B9-9C075A430A41">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:08:20 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Geslacht" id="F06791B1-CAC8-3AC1-C326-FF2C51334B91">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:09:36 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNA sequentie" id="A6C70E49-3DAC-35C7-B029-0B9BB6B83169">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:11:06 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B186BC7-F95B-3688-04C6-2095E7D62C7F" name="Virus PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:06:32 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5E271D5-9503-6586-5A71-4BC16299A4CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

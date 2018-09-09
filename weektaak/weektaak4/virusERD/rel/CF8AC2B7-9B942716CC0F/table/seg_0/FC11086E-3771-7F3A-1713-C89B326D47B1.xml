@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC11086E-3771-7F3A-1713-C89B326D47B1" name="Hostrange">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:56 UTC</createdTime>
+<generatorID>871DCBF7-EBEA-2B22-51B1-0D77E359E8A1</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Host_ID" id="1E24BE3B-986A-7CEA-3D14-980C1C45E55A">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>E92A0677-0182-2D40-AF8A-5C5D3BEFEEC7</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hostname" id="A77896E5-6167-5334-56A7-F5FA342B5A8D">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>C8305CE3-6779-738E-070D-A888A3643B42</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Virus_ID" id="DD263A0E-6281-2B0E-62C3-1F5B0BF86A2E">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>D607450D-EEE2-7671-4BF4-63B77007D21A</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A0F982-E08C-03D2-8588-B3E4D7B0F1ED" referredColumn="0BBD72CB-DF25-EF95-05FF-38658245EFB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F71E7FE6-C686-CFC7-932D-119F91EADDE4" name="Hostrange_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>EEC79803-14DD-E6DD-481E-87B9400A9353</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E24BE3B-986A-7CEA-3D14-980C1C45E55A"/>
+<colUsage columnID="DD263A0E-6281-2B0E-62C3-1F5B0BF86A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FCFF3EF-6711-FA77-6633-819F9C823C9E" name="Hostrange_Virus_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>58B9A821-BDED-3A9B-3968-0CAFACB3D96D</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD263A0E-6281-2B0E-62C3-1F5B0BF86A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18A0F982-E08C-03D2-8588-B3E4D7B0F1ED" containerWithKeyObject="FC11086E-3771-7F3A-1713-C89B326D47B1" localFKIndex="1FCFF3EF-6711-FA77-6633-819F9C823C9E" name="Hostrange_Virus_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-20 13:21:57 UTC</createdTime>
+<generatorID>58B9A821-BDED-3A9B-3968-0CAFACB3D96D</generatorID>
+<ownerDesignName>virusERD</ownerDesignName>
+<referredTableLongName>Virus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50A3289E-96B7-C957-42FF-3DDE4741993D</referredTableID>
+<keyObject>B884704A-A69A-0F8F-6470-A1C0977DDDF2</keyObject>
+<referredKeyID>B884704A-A69A-0F8F-6470-A1C0977DDDF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

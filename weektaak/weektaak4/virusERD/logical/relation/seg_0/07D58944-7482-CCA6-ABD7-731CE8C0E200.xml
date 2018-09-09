@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="protein_function" directorySegmentName="seg_0" id="07D58944-7482-CCA6-ABD7-731CE8C0E200">
+<createdBy>vverh</createdBy>
+<createdTime>2018-03-12 14:19:32 UTC</createdTime>
+<ownerDesignName>virusERD</ownerDesignName>
+<engineerTo>
+<item key="CF8AC2B7-DC87-6B83-21C5-9B942716CC0F" value="true"/>
+</engineerTo>
+<sourcePk>B9E489BB-4CAD-A02A-1E36-D20105562429</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27041629-45D1-9EB3-B5C6-A7869582C7B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CFC77F5E-8749-F699-FB24-0F0D0F6A5C1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

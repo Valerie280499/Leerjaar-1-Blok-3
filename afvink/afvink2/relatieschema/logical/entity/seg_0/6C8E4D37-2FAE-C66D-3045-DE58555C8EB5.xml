@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C8E4D37-2FAE-C66D-3045-DE58555C8EB5" name="Studenten">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:29:03 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDNR" id="5A37711E-464A-5B56-6554-EBBBE833A69B">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:29:19 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VOORNAAM" id="5FC17203-512A-6F84-BBF9-ACC2154392D3">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:29:43 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TUSSENVOEGSELS" id="D006614A-3B9B-D172-401C-52C339FA53D3">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:30:11 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACHTERNAAM" id="79EC12A5-FD0C-F9A9-858D-1C847CAE4803">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:30:37 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLAS_ID" id="630D5F7B-4040-097E-5E18-CC2B476DB850">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:31:28 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="54637015-2A46-4E38-6630-DE8E693F2CD4">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:32:10 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MOBIEL" id="9C2048E5-C69A-1DDE-32D6-F51F574164CD">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:32:31 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GEB_DATUM" id="35BEF717-A516-92C0-296E-81340674E18C">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:33:03 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WOONPLAATS" id="C213F8AE-04B9-17BA-1A61-0AABBC24732E">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:33:17 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klas_ID1" id="349E8BEA-887F-E357-938E-DDA3BD0BBF3E">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:36:59 UTC</createdTime>
+<generatorID>6BA896D6-C307-B57E-8CCF-756F26BDCDA6</generatorID>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<referedAttribute>A3B6F300-EBAD-3795-D062-E5C000496517</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klas_ID2" id="E57729B0-F20F-6A0B-84F5-CE175A3888D7">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:37:32 UTC</createdTime>
+<generatorID>0A05B8DB-ABD1-68EA-66A0-150E71C4A912</generatorID>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<referedAttribute>A3B6F300-EBAD-3795-D062-E5C000496517</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="952D081A-B118-6459-6A98-A3A47F5FB30E" name="Studenten PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:32:06 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A37711E-464A-5B56-6554-EBBBE833A69B</attributeRef>
+<attributeRef>E57729B0-F20F-6A0B-84F5-CE175A3888D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

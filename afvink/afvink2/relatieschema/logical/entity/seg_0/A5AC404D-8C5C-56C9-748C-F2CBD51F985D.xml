@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5AC404D-8C5C-56C9-748C-F2CBD51F985D" name="Docenten">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:33:39 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SLB_ID" id="F4628561-5B39-B7D3-6BE5-E9EDB2F0D5A4">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:34:05 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VOORNAAM" id="F7B8383E-A04E-171F-9C45-2F1D16A05881">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:34:57 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TUSSENVOEGSELS" id="556521C1-5D72-8676-ACC4-E027597DFD65">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:35:18 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACHTERNAAM" id="A328B454-D4D4-8249-58EE-AF636394DC34">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:35:44 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klas_ID" id="757CBE87-7674-35C3-395E-75E52A08158A">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:40:06 UTC</createdTime>
+<generatorID>9AEE20FD-FCDC-9DAC-1366-E56EE1252B83</generatorID>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<referedAttribute>A3B6F300-EBAD-3795-D062-E5C000496517</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7765FC04-C59B-7E70-1698-4FF641B9FA07" name="Docenten PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:34:53 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4628561-5B39-B7D3-6BE5-E9EDB2F0D5A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

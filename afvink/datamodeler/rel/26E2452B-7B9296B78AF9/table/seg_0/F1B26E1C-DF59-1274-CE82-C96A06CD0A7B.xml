@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B26E1C-DF59-1274-CE82-C96A06CD0A7B" name="Aders">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>683AC97E-C946-E9B6-F0D3-21E1A0E9048E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Straannaam" id="940EB8F6-CA3F-E7AB-C7DF-5951CD0AC618">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>63E7C74E-7CB8-0143-3E7E-BB9312D77DF5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Huisnummer" id="D42B8FDE-101B-C66A-385F-B902086916C4">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>2D28985C-DC83-E87B-2FD3-58B4E7022E82</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postcode" id="ACB75499-E922-9E28-9F28-8BD372E70865">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>8C65094A-8461-6822-E066-A6B7DC6147EC</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Woonplaats" id="B22F5799-3A4C-5941-14DA-6B3202D18030">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>DFD9B090-66CB-655F-BEC0-758A31B4D66E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reistijd" id="805F05D5-7BC6-C4C9-FC5F-F063876E92F9">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>E65596A2-6C72-3A6A-DD08-BD609F29CB4E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_Studentnummer" id="4DFF1F2E-7971-0360-E8D6-AACCCD91DEEB">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>40ED0395-9121-9D18-B077-C91A56C3F9B8</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58521F53-752A-4B0A-2D6A-2A4CCF49EB91" referredColumn="A85572D3-A345-49E4-ED1A-42D4F5F23A00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08621098-4132-3553-BD6D-B8FEBD7E4320" name="Aders_PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>530FF0D5-1963-3502-946C-2B0784BFFA16</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DFF1F2E-7971-0360-E8D6-AACCCD91DEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="227D26B4-F518-D969-1628-876873FC82C3" name="Aders_Student_FK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-09 10:18:42 UTC</createdTime>
+<generatorID>5233D332-D81E-E709-FEE6-AB94E2C3EDF2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DFF1F2E-7971-0360-E8D6-AACCCD91DEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

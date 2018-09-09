@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0CFA14F-3DCA-7CF6-CB21-AE7C14EB90FE" name="Klassen">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:25:05 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Klas_ID" id="A3B6F300-EBAD-3795-D062-E5C000496517">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:25:21 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klas_NAAM" id="F2B9C8CE-C14E-69EF-60F6-B96431EE5692">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:27:35 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klassenvertegenwoordiger" id="02C0905F-074A-7458-66DD-9680B1D72DFA">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:28:02 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SLB_ID" id="BF00CAA0-A12E-BC78-9BD9-89F8A70DDF49">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:38:22 UTC</createdTime>
+<generatorID>C075F8B0-67B4-59B2-338D-F9722E6CB310</generatorID>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<referedAttribute>F4628561-5B39-B7D3-6BE5-E9EDB2F0D5A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1941FC77-F292-D4B8-F75E-691BA66786EC" name="Klassen PK">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:36:23 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<engineerTo>
+<item key="9A8BA786-8B2D-B4B5-6501-D3A62B08C78A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3B6F300-EBAD-3795-D062-E5C000496517</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

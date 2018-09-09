@@ -1,0 +1,127 @@
+Opdracht 1a
+> library(package="MASS")
+> dCars93<-subset(Cars93, select=c(Type, MPG.city,Cylinders,EngineSize,Horsepower,Weight))
+> dCars93
+  Type MPG.city Cylinders EngineSize Horsepower Weight
+1    Small       25         4        1.8        140   2705
+2  Midsize       18         6        3.2        200   3560
+3  Compact       20         6        2.8        172   3375
+4  Midsize       19         6        2.8        172   3405
+5  Midsize       22         4        3.5        208   3640
+etc.
+________________________________________________________________________________
+Opdracht 1b
+> plot(Horsepower~EngineSize, data=dCars93, pch=20)
+
+________________________________________________________________________________
+Opdracht 1c
+> Sport<-subset(dCars93, Type=='Sporty')
+> Sport
+     Type MPG.city Cylinders EngineSize Horsepower Weight
+14 Sporty       19         6        3.4        160   3240
+19 Sporty       17         8        5.7        300   3380
+28 Sporty       18         6        3.0        300   3805
+34 Sporty       22         4        2.3        105   2850
+35 Sporty       24         4        2.0        115   2710
+40 Sporty       30         4        1.6         90   2475
+41 Sporty       24         4        2.3        160   2865
+46 Sporty       26         4        1.5         92   2285
+57 Sporty       17    rotary        1.3        255   2895
+60 Sporty       23         4        1.6        100   2450
+72 Sporty       23         4        1.8         92   2640
+75 Sporty       19         6        3.4        160   3240
+85 Sporty       25         4        2.2        135   2950
+91 Sporty       18         6        2.8        178   2810
+________________________________________________________________________________
+Opdracht 1d
+> plot(Horsepower~EngineSize,data=dCars93, pch=20)
+> points(Sport$Horsepower, Sport$EngineSize, col='red', pch=20)
+
+________________________________________________________________________________
+Opdracht 1e
+> subset(dCars93, Horsepower>250)
+      Type MPG.city Cylinders EngineSize Horsepower Weight
+11 Midsize       16         8        4.6        295   3935
+19  Sporty       17         8        5.7        300   3380
+28  Sporty       18         6        3.0        300   3805
+48 Midsize       17         8        4.5        278   4000
+57  Sporty       17    rotary        1.3        255   2895
+________________________________________________________________________________
+Opdracht1d
+abline(cor.test(dCars93$Horsepower, dCars93$EngineSize))
+
+_________________________________________________________________________________
+opdracht 2a 
+> lin<-subset(chickwts, feed=='linseed')
+> lin
+   weight    feed
+11    309 linseed
+12    229 linseed
+13    181 linseed
+14    141 linseed
+15    260 linseed
+16    203 linseed
+17    148 linseed
+18    169 linseed
+19    213 linseed
+20    257 linseed
+21    244 linseed
+22    271 linseed
+> summary(lin)
+     weight             feed   
+ Min.   :141.0   casein   : 0  
+ 1st Qu.:178.0   horsebean: 0  
+ Median :221.0   linseed  :12  
+ Mean   :218.8   meatmeal : 0  
+ 3rd Qu.:257.8   soybean  : 0  
+ Max.   :309.0   sunflower: 0 
+
+> soy<-subset(chickwts, feed=='soybean')
+> soy
+   weight    feed
+23    243 soybean
+24    230 soybean
+25    248 soybean
+26    327 soybean
+27    329 soybean
+28    250 soybean
+29    193 soybean
+30    271 soybean
+31    316 soybean
+32    267 soybean
+33    199 soybean
+34    171 soybean
+35    158 soybean
+36    248 soybean
+> summary(soy)
+     weight             feed   
+ Min.   :158.0   casein   : 0  
+ 1st Qu.:206.8   horsebean: 0  
+ Median :248.0   linseed  : 0  
+ Mean   :246.4   meatmeal : 0  
+ 3rd Qu.:270.0   soybean  :14  
+ Max.   :329.0   sunflower: 0  
+________________________________________________________________________________
+opdracht 2b en 2c
+lin <- subset(chickwts, feed=='linseed', select=weight)
+hor<- subset(chickwts, feed=='horsebean', select=weight)
+cas<- subset(chickwts, feed=='casein', select=weight)
+soy<- subset(chickwts, feed=='soybean', select=weight)
+meat<- subset(chickwts, feed=='meatmeal', select=weight)
+sun<- subset(chickwts, feed=='sunflower',select=weight)
+
+par(mfrow=c(3,2))
+
+boxplot(lin, xlab='Linseed', ylab='Weight in grams', ylim=c(100,400))
+boxplot(hor, xlab='Horsebean', ylab= 'Weight in grams', ylim=c(100,400))
+boxplot(cas, xlab='Casein', ylab= 'Weight in grams', ylim=c(100,400))
+boxplot(soy, xlab='Soybean', ylab= 'Weight in grams', ylim=c(100,400))
+boxplot(meat,xlab='Meatmeal', ylab= 'Weight in grams', ylim=c(100,400))
+boxplot(sun, xlab='Sunflower', ylab= 'Weight in grams', ylim=c(100,400))
+__________________________________________________________________________________
+Opdracht 2d
+De 2 supplementen met een grootste mediaan zijn Casein en Sunflower
+
+_____________________________________________________________________________________
+Opdracht 2e
+Sunflower, want sunflower heeft als enige een relatief hoge mediaan met een kleine spreiding in de gewichten van de kuikens.

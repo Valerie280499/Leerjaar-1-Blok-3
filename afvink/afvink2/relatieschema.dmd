@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relatieschema" id="166351B8-C4F3-F0A9-CC48-E73B6B03CD5C" version="3.5">
+<createdBy>vverh</createdBy>
+<createdTime>2018-02-27 09:24:24 UTC</createdTime>
+<ownerDesignName>relatieschema</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>166351B8-C4F3-F0A9-CC48-E73B6B03CD5C</designId>
+</OSDM_Design>
